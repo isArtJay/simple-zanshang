@@ -25,14 +25,11 @@
   <button class="btn btn-blink" data-num="2">2元</button>
   ```
 
-  ![img](https://artjay-1258580758.cos.ap-shanghai.myqcloud.com/7_enioyme/alipay.gif)
-
 - 如果选择10元，同时选择微信付款方式时，则对应的图片就是`wechat-10.png`
 
   ```html
   <button class="btn btn-blink" data-num="10">10元</button>
   ```
 
-  ![img](https://artjay-1258580758.cos.ap-shanghai.myqcloud.com/7_enioyme/wechat.gif)
 
 **记得替换images路径下的二维码为你自己的，不然别人打款就会打给我的啦~**
