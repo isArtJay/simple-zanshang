@@ -1,19 +1,15 @@
-# 赞赏功能实现
-点击赞赏按钮，就会出现一个赞赏弹窗，简单的使用了几张二维码图片替换，所以没法显示有哪些人打赏
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>reward</title>
 
-[在线Demo](<https://www.lien.run/Demo/reward/>)
-
-# 效果预览:
-
-![](https://lien-1258580758.cos.ap-shanghai.myqcloud.com/demo/reward/reward.gif)
-
-# 用法示例
-
-直接 clone 这个项目，把 css、HTML、js 代码分别放到相应的位置：
-
-HTML：
-
-```html
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="reward.css" />
+  </head>
+  <body>
 <!-- 赞赏按钮 -->
 <div class="entry-shang text-center">
   <button class="zs show-zs btn btn-bred">赞赏</button>
@@ -44,6 +40,9 @@ HTML：
     </div>
   </div>
   <div class="zs-modal-footer">
+    <!-- 赞赏模式，你可以全部打开，也可以选择留一个你喜欢的
+             只需注释掉你想关闭的赞赏模式对应的代码就行，然后再相应的微调一下样式 
+        -->
     <!-- 支付宝控件 -->
     <label>
       <input
@@ -64,36 +63,9 @@ HTML：
     <div class="clear"></div>
   </div>
 </div>
-```
 
-CSS：
-
-```html
-<link rel="stylesheet" href="reward.css" />
-```
-
-JS：
-
-```html
-<script src="jquery.min.js"></script>
-<script src="reward.js"></script>
-```
-
-# 须知
-
-二维码图片是放在当前目录中的 images 文件中，支付宝和微信的命名规则为：`type+'-'+data-num`
-
-- 如果选择2元，同时选择支付宝付款方式时，则对应的图片就是`alipay-2.png`
-
-  ```html
-  <button class="btn btn-blink" data-num="2">2元</button>
-  ```
-
-- 如果选择10元，同时选择微信付款方式时，则对应的图片就是`wechat-10.png`
-
-  ```html
-  <button class="btn btn-blink" data-num="10">10元</button>
-  ```
-
-
-**记得替换images路径下的二维码为你自己的，不然别人打款就会打给我的啦~**
+    <!-- 引入js -->
+    <script src="jquery.min.js"></script>
+    <script src="reward.js"></script>
+  </body>
+</html>
