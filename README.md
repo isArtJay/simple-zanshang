@@ -1,7 +1,7 @@
 # 赞赏功能实现
 点击赞赏按钮，就会出现一个赞赏弹窗，简单的使用了几张二维码图片替换，所以没法显示有哪些人打赏
 
-[在线Demo](<https://www.lien.run/Demo/reward/>)
+[在线Demo](<https://www.lien.run/Project/reward/>)
 
 # 效果预览:
 
