@@ -1,21 +1,17 @@
 # 赞赏功能实现
-## 功能简介：
-
-[更多详细介绍](<https://www.artjay.me/2019/enjoy-me/>)
-
 点击赞赏按钮，就会出现一个赞赏弹窗，简单的使用了几张二维码图片替换，所以没法显示有哪些人打赏
 
-## 效果预览:
+[在线Demo](<https://www.lien.run/Demo/reward/>)
 
-目前我只开了微信赞赏，你可以自己设置支付宝和微信同时开
+# 效果预览:
 
 ![](https://artjay-1258580758.cos.ap-shanghai.myqcloud.com/7_enioyme/xiaoguo.gif)
 
-## 使用
+# 用法示例
 
-直接clone这个项目，把css、HTML、js代码分别放到相应的位置就可以了
+直接 clone 这个项目，把 css、HTML、js 代码分别放到相应的位置就可以了
 
-## 须知:
+# 须知
 
 二维码图片是放在当前目录中的 images 文件中，支付宝和微信的命名规则为：`type+'-'+data-num`
 
