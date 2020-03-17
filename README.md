@@ -5,7 +5,7 @@
 
 # 效果预览:
 
-![](https://lien-1258580758.cos.ap-shanghai.myqcloud.com/demo/reward/reward.gif)
+![](https://artjay-1258580758.cos.ap-shanghai.myqcloud.com/reward.gif)
 
 # 用法示例
 
