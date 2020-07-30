@@ -1,11 +1,11 @@
-# 赞赏功能实现
-点击赞赏按钮，就会出现一个赞赏弹窗，简单的使用了几张二维码图片替换，所以没法显示有哪些人打赏
+# 博客赞赏插件
+点击赞赏按钮，就会出现一个赞赏弹窗，使用收款码进行收款，所以没法显示有哪些人打赏。
 
 [在线Demo](<https://www.lien.run/Project/reward/>)
 
-# 效果预览:
+# 效果预览
 
-![](https://artjay-1258580758.cos.ap-shanghai.myqcloud.com/reward.gif)
+<img align="center" src="https://raw.githubusercontent.com/isArtJay/simple-zanshang/master/src/demo.gif"></img>
 
 # 用法示例
 
@@ -94,6 +94,5 @@ JS：
   ```html
   <button class="btn btn-blink" data-num="10">10元</button>
   ```
-
 
 **记得替换images路径下的二维码为你自己的，不然别人打款就会打给我的啦~**
