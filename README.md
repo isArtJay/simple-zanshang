@@ -1,8 +1,6 @@
 # 博客赞赏插件
 点击赞赏按钮，就会出现一个赞赏弹窗，使用收款码进行收款，所以没法显示有哪些人打赏。
 
-[在线Demo](<https://www.lien.run/Project/reward/>)
-
 # 效果预览
 
 <img align="center" src="https://raw.githubusercontent.com/isArtJay/simple-zanshang/master/src/demo.gif"></img>
